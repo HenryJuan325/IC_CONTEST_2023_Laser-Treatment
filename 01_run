@@ -1,7 +1,0 @@
-cat /etc/redhat-release  | tee version.log
-if   grep -i -q '7' 'version.log'; then
-    xrun tb.sv LASER.v +define+USECOLOR +access+r  -clean -createdebugdb -input xrun.tcl -loadpli1 debpli:novas_pli_boot
-#irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot
-else
-    irun -f ncvlog.f
-fi
