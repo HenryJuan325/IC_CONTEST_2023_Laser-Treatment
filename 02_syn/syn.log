@@ -1,0 +1,587 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version T-2022.03 for linux64 - Feb 22, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+#Read All Files
+read_file -format verilog  LASER.v
+Loading db file '/RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/standard.sldb'
+  Loading link library 'slow'
+  Loading link library 'gtech'
+Loading verilog file '/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v:585: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v:607: A unnamed generate block with an LRM-defined name 'genblk2' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v:700: A unnamed generate block with an LRM-defined name 'genblk3' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+
+Statistics for case statements in always block at line 570 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           571            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 756 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           761            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine LASER line 561 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     c_state_reg     | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 586 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   reference_x_reg   | Flip-flop |  160  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 608 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   reference_y_reg   | Flip-flop |  160  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 641 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      cnt40_reg      | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 657 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    cntrepeat_reg    | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 673 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     cnt256_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 714 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    c1_inside_reg    | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 735 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    c2_inside_reg    | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 756 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   in_side_reg_reg   | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 789 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   golden_num_reg    | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 807 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      DONE_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 819 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       C1X_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 836 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       C1Y_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 853 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       C2X_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 870 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       C2Y_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.db:LASER'
+Loaded 1 design.
+Current design is 'LASER'.
+LASER
+#read_file -format sverilog  LASER.v
+current_design LASER
+Current design is 'LASER'.
+{LASER}
+link
+
+  Linking design 'LASER'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  LASER                       /RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER.db
+  slow (library)              /RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/2022.03/libraries/syn/dw_foundation.sldb
+
+1
+#Setting Clock Constraints
+source -echo -verbose LASER.sdc
+# operating conditions and boundary conditions #
+set cycle 8.0
+8.0
+create_clock -name CLK  -period $cycle   [get_ports  CLK] 
+1
+set_dont_touch_network      [all_clocks]
+1
+set_fix_hold                [all_clocks]
+1
+set_clock_uncertainty  0.1  [all_clocks]
+1
+set_clock_latency      0.5  [all_clocks]
+1
+set_ideal_network           [get_ports CLK]
+1
+#Don't touch the basic env setting as below
+set_input_delay  1   -clock CLK [remove_from_collection [all_inputs] [get_ports CLK]] 
+1
+set_output_delay 1    -clock CLK [all_outputs]  
+1
+set_load         1   [all_outputs]
+1
+set_drive        0.1   [all_inputs]
+1
+set_operating_conditions -max_library slow -max slow
+Using operating conditions 'slow' found in library 'slow'.
+1
+set_wire_load_model -name tsmc13_wl10 -library slow                        
+1
+#set_max_fanout 20 [all_inputs]
+check_design
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03
+Date:        Wed Mar 29 22:01:20 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              52
+    Cells do not drive (LINT-1)                                    52
+--------------------------------------------------------------------------------
+
+Warning: In design 'LASER', cell 'C5497' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5499' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5502' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5504' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5507' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5846' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5850' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5861' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C5873' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_452' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_453' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_454' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_455' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_456' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_457' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_458' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_459' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_460' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_461' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_462' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_463' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_464' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_465' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_466' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_467' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_468' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_469' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_470' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_471' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_472' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_473' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_474' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_475' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_476' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_477' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_478' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_479' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_480' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_481' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_482' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_483' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_484' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_485' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_486' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_487' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_488' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_489' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_490' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_491' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C6286' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C6299' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_494' does not drive any nets. (LINT-1)
+1
+set high_fanout_net_threshold 0
+0
+uniquify
+1
+set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
+1
+#set_max_area 0
+#Synthesis all design
+#compile -map_effort high -area_effort high
+#compile -map_effort high -area_effort high -inc
+compile_ultra
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | S-2021.06-DWBB_202106.0 |     *     |
+| Licensed DW Building Blocks        | S-2021.06-DWBB_202106.0 |     *     |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler WLM                                                               |
+| Comand line  | compile_ultra                                                                     |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 3139                                   |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 483                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT class                                      | 0                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch cells                              | 690                                    |
+| Number of Dont Touch nets                               | 1                                      |
+| Number of size only cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+----------------------------------------------------------------------------------------------------
+| Variables                                               | Value                                  |
+----------------------------------------------------------------------------------------------------
+| set_fix_multiple_port_nets                              | -all -buffer_constants                 |
+====================================================================================================
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 52 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+  Simplifying Design 'LASER'
+
+Loaded alib file './alib-52/slow.db.alib'
+  Building model 'DW01_NAND2'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'LASER'
+Information: Added key list 'DesignWare' to design 'LASER'. (DDB-72)
+Information: The register 'c_state_reg[3]' is a constant and will be removed. (OPT-1206)
+ Implement Synthetic for 'LASER'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'HOLDX1' in the library 'slow' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:06   42577.6      0.00      -0.0   12023.4                           43238584.0000      0.00  
+    0:00:06   42577.6      0.00       0.0   12023.4                           43238584.0000      0.00  
+
+  Beginning Constant Register Removal
+  -----------------------------------
+    0:00:06   42577.6      0.00       0.0   12023.4                           43238584.0000      0.00  
+    0:00:06   42577.6      0.00       0.0   12023.4                           43238584.0000      0.00  
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Mapping 'LASER_DP_OP_526J1_132_7441_0'
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:07   30495.5      0.76      20.2   16129.1                           22131296.0000      0.00  
+    0:00:07   30913.0      0.00       0.0   16110.3                           22465612.0000      0.00  
+    0:00:07   30913.0      0.00       0.0   16110.3                           22465612.0000      0.00  
+    0:00:07   30914.7      0.00       0.0   15486.9                           22489712.0000      0.00  
+    0:00:08   30863.8      0.00       0.0   15486.9                           22448488.0000      0.00  
+    0:00:08   30863.8      0.00       0.0   15486.9                           22448488.0000      0.00  
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:00:08   30361.4      0.00       0.0   15483.5                           21847568.0000      0.00  
+    0:00:08   30361.4      0.00       0.0   15483.5                           21847568.0000      0.00  
+    0:00:08   30361.4      0.00       0.0   15483.5                           21847568.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:08   30291.8      0.00       0.0   15477.9                           21661030.0000      0.00  
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:00:09   30363.1      0.00       0.0       0.0                           21825194.0000      0.00  
+    0:00:09   30363.1      0.00       0.0       0.0                           21825194.0000      0.00  
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:09   30363.1      0.00       0.0       0.0                           21825194.0000      0.00  
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+    0:00:09   29865.8      0.00       0.0       0.0                           20465492.0000      0.00  
+    0:00:09   29865.8      0.00       0.0       0.0                           20465492.0000      0.00  
+    0:00:09   29865.8      0.00       0.0       0.0                           20465492.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:10   29831.8      0.00       0.0       0.0                           20440514.0000      0.00  
+    0:00:10   28485.8      0.00       0.0       0.0                           18593854.0000      0.00  
+    0:00:10   28485.8      0.00       0.0       0.0                           18593854.0000      0.00  
+    0:00:10   28485.8      0.00       0.0       0.0                           18593854.0000      0.00  
+    0:00:10   28485.8      0.00       0.0       0.0                           18593854.0000      0.00  
+    0:00:10   28246.4      0.00       0.0       0.0                           18324454.0000      0.00  
+    0:00:10   28246.4      0.00       0.0       0.0                           18324454.0000      0.00  
+    0:00:10   28246.4      0.00       0.0       0.0                           18324454.0000      0.00  
+    0:00:10   28246.4      0.00       0.0       0.0                           18324454.0000      0.00  
+    0:00:10   28246.4      0.00       0.0       0.0                           18324454.0000      0.00  
+    0:00:10   28246.4      0.00       0.0       0.0                           18324454.0000      0.00  
+    0:00:11   27905.3      0.00       0.0       0.0                           18078696.0000      0.00  
+Loading db file '/RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1
+write -format ddc     -hierarchy -output "LASER_syn.ddc"
+Writing ddc file 'LASER_syn.ddc'.
+1
+write_sdf -version 1.0  LASER_syn.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER_syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write -format verilog -hierarchy -output LASER_syn.v
+Writing verilog file '/RAID2/COURSE/si2_contest/si2_contest004/Contest/2023_univ_cell/02_SYN/LASER_syn.v'.
+1
+report_area > area.log
+report_timing > timing.log
+report_qor   >  LASER_syn.qor
+exit
+
+Memory usage for this session 200 Mbytes.
+Memory usage for this session including child processes 214 Mbytes.
+CPU usage for this session 13 seconds ( 0.00 hours ).
+Elapsed time for this session 17 seconds ( 0.00 hours ).
+
+Thank you...
